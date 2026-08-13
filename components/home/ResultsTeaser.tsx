@@ -8,17 +8,17 @@ const images = [
   {
     label: 'Acne',
     desc: 'Three sessions of medical extractions + peels.',
-    src: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=900&auto=format&fit=crop',
+    src: '/assets/gallery/acne-after.webp',
   },
   {
     label: 'Glow & hydration',
     desc: 'HydraFacial — measured in days, not weeks.',
-    src: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=900&auto=format&fit=crop',
+    src: '/assets/treatments/hydrafacial.webp',
   },
   {
     label: 'Anti-aging',
     desc: 'Softened fine lines, no surgical signposts.',
-    src: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=900&auto=format&fit=crop',
+    src: '/assets/gallery/anti-aging-after.webp',
   },
 ];
 

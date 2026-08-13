@@ -42,7 +42,7 @@ export default function AboutPage() {
               }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop"
+                src="/assets/clinic/clinic-room.webp"
                 alt="The Neo Skin Clinic treatment room in Vanasthalipuram"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

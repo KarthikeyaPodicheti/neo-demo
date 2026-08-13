@@ -18,7 +18,7 @@ const plexSans = IBM_Plex_Sans({
   variable: '--neo-font-sans',
   subsets: ['latin'],
   display: 'swap',
-  weight: ['300', '400', '500', '600'],
+  weight: ['400', '500', '600'],
 });
 
 const plexMono = IBM_Plex_Mono({

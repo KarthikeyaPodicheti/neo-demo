@@ -77,7 +77,7 @@ export default function Hero() {
   return (
     <section ref={stageRef} className="hall" aria-label="Lead statement">
       <Image
-        src="/assets/hero-portrait.png"
+        src="/assets/hero-portrait.webp"
         alt=""
         fill
         priority

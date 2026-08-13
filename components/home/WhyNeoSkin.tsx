@@ -7,17 +7,17 @@ import { DIFFERENTIATORS } from '@/lib/constants';
 
 const COLLAGE = [
   {
-    src: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=900&auto=format&fit=crop',
+    src: '/assets/clinic/dermatologist.webp',
     alt: 'Dermatologist at Neo Skin Clinic',
     className: 'about-collage__main',
   },
   {
-    src: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=700&auto=format&fit=crop',
+    src: '/assets/clinic/consultation.webp',
     alt: 'Consultation in the Vanasthalipuram clinic',
     className: 'about-collage__tile',
   },
   {
-    src: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=700&auto=format&fit=crop',
+    src: '/assets/clinic/treatment-room.webp',
     alt: 'Treatment session at Neo Skin Clinic',
     className: 'about-collage__tile',
   },

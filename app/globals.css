@@ -383,8 +383,7 @@ p { text-wrap: pretty; }
   overflow: hidden;
   background: var(--color-paper-2);
 }
-.tx-card__media img,
-.tx-card__media :global(img) {
+.tx-card__media img {
   object-fit: cover;
   transform: scale(1);
   transition: transform 720ms var(--ease-out);

@@ -128,12 +128,12 @@ export const SERVICES: Service[] = [
 ];
 
 export const HOME_TREATMENTS: { id: string; image: string }[] = [
-  { id: 'acne-treatment', image: '/assets/treatments/acne.png' },
-  { id: 'pigmentation', image: '/assets/treatments/pigmentation.png' },
-  { id: 'anti-aging', image: '/assets/treatments/anti-aging.png' },
-  { id: 'laser-hair-removal', image: '/assets/treatments/laser.png' },
-  { id: 'hydrafacial', image: '/assets/treatments/hydrafacial.png' },
-  { id: 'chemical-peel', image: '/assets/treatments/chemical-peel.png' },
+  { id: 'acne-treatment', image: '/assets/treatments/acne.webp' },
+  { id: 'pigmentation', image: '/assets/treatments/pigmentation.webp' },
+  { id: 'anti-aging', image: '/assets/treatments/anti-aging.webp' },
+  { id: 'laser-hair-removal', image: '/assets/treatments/laser.webp' },
+  { id: 'hydrafacial', image: '/assets/treatments/hydrafacial.webp' },
+  { id: 'chemical-peel', image: '/assets/treatments/chemical-peel.webp' },
 ];
 
 export const CLINIC_STATS = [
@@ -191,24 +191,23 @@ export const DOCTORS: Doctor[] = [
     specialization: 'Clinical Dermatologist',
     experience: '8+ years',
     qualification: 'MD - Dermatology',
-    photoUrl: '/images/doctor-placeholder.jpg',
+    photoUrl: '/assets/clinic/dermatologist.webp',
   },
   {
     name: 'Dr. [Name]',
     specialization: 'Cosmetologist',
     experience: '5+ years',
-    qualification: 'DDVL, Fellowship in Aesthetic Medicine',
-    photoUrl: '/images/doctor-placeholder.jpg',
+    photoUrl: '/assets/clinic/cosmetologist.webp',
   },
 ];
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { id: 'g1', category: 'acne', beforeSrc: '/assets/gallery/acne-before.png', afterSrc: '/assets/gallery/acne-after.png', treatment: 'Acne Treatment' },
-  { id: 'g2', category: 'pigmentation', beforeSrc: '/assets/gallery/pigmentation-before.png', afterSrc: '/assets/gallery/pigmentation-after.png', treatment: 'Pigmentation Treatment' },
-  { id: 'g3', category: 'anti-aging', beforeSrc: '/assets/gallery/anti-aging-before.png', afterSrc: '/assets/gallery/anti-aging-after.png', treatment: 'Anti-Aging Protocol' },
-  { id: 'g4', category: 'acne', beforeSrc: '/assets/gallery/acne-scar-before.png', afterSrc: '/assets/gallery/acne-scar-after.png', treatment: 'Acne Scar Treatment' },
-  { id: 'g5', category: 'hair', beforeSrc: '/assets/gallery/hair-before.png', afterSrc: '/assets/gallery/hair-after.png', treatment: 'Hair Restoration' },
-  { id: 'g6', category: 'pigmentation', beforeSrc: '/assets/gallery/melasma-before.png', afterSrc: '/assets/gallery/melasma-after.png', treatment: 'Melasma Treatment' },
+  { id: 'g1', category: 'acne', beforeSrc: '/assets/gallery/acne-before.webp', afterSrc: '/assets/gallery/acne-after.webp', treatment: 'Acne Treatment' },
+  { id: 'g2', category: 'pigmentation', beforeSrc: '/assets/gallery/pigmentation-before.webp', afterSrc: '/assets/gallery/pigmentation-after.webp', treatment: 'Pigmentation Treatment' },
+  { id: 'g3', category: 'anti-aging', beforeSrc: '/assets/gallery/anti-aging-before.webp', afterSrc: '/assets/gallery/anti-aging-after.webp', treatment: 'Anti-Aging Protocol' },
+  { id: 'g4', category: 'acne', beforeSrc: '/assets/gallery/acne-scar-before.webp', afterSrc: '/assets/gallery/acne-scar-after.webp', treatment: 'Acne Scar Treatment' },
+  { id: 'g5', category: 'hair', beforeSrc: '/assets/gallery/hair-before.webp', afterSrc: '/assets/gallery/hair-after.webp', treatment: 'Hair Restoration' },
+  { id: 'g6', category: 'pigmentation', beforeSrc: '/assets/gallery/melasma-before.webp', afterSrc: '/assets/gallery/melasma-after.webp', treatment: 'Melasma Treatment' },
 ];
 
 export const FAQS = [
