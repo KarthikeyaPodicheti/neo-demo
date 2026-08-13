@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-08-12",
+    "scope": "app",
+    "macrostructure": "Marquee Hero (interactive) + Catalogue + Portfolio Grid + Narrative Workflow + Manifesto + Conversational FAQ",
+    "theme": "Almanac (light mineral paper)",
+    "enrichment": "Tier-A amber radial cursor wash + cycling em-word + live clinic-hours clock (three motion primitives on the hero)",
+    "nav": "N12 Banner + retracting nav (frosts on scroll)",
+    "footer": "Ft4 Dense colophon",
+    "type": "Fraunces + IBM Plex Sans + IBM Plex Mono",
+    "axes": "light paper band L94 · high-contrast-serif · warm amber accent hue 60",
+    "differs_from": "Previous dark Almanac entry — flipped paper band dark → light at user request",
+    "design_system": "DESIGN.md",
+    "brief": "Whole-website redesign flipped from dark to light Almanac; rebuilt home hero with three motion primitives (cursor wash, em-word cycle, live clock) plus scroll-morph."
+  },
+  {
+    "date": "2026-08-12",
+    "scope": "app",
+    "macrostructure": "Marquee Hero + Catalogue + Portfolio Grid + Narrative Workflow + Manifesto + Conversational FAQ",
+    "theme": "Almanac (dark treatment hall)",
+    "enrichment": "Tier-A radial wash + ghost mono numeral",
+    "nav": "N12 Banner + retracting nav",
+    "footer": "Ft4 Dense colophon",
+    "brief": "Initial Hallmark whole-site redesign — Clinic Ledger dark theme."
+  },
+  {
+    "date": "2026-08-12",
+    "scope": "app",
+    "macrostructure": "Photographic / Long Document",
+    "theme": "Atelier",
+    "enrichment": "generated treatment portrait",
+    "brief": "Original luxury editorial redesign."
+  }
+]
