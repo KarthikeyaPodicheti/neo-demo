@@ -136,6 +136,24 @@ export const HOME_TREATMENTS: { id: string; image: string }[] = [
   { id: 'chemical-peel', image: '/assets/treatments/chemical-peel.webp' },
 ];
 
+export const SERVICE_IMAGES: Record<string, string> = {
+  hydrafacial: '/assets/treatments/hydrafacial.webp',
+  'chemical-peel': '/assets/treatments/chemical-peel.webp',
+  microdermabrasion: '/assets/treatments/chemical-peel.webp',
+  'laser-hair-removal': '/assets/treatments/laser.webp',
+  'skin-tightening': '/assets/treatments/laser.webp',
+  'anti-aging': '/assets/treatments/anti-aging.webp',
+  'acne-treatment': '/assets/treatments/acne.webp',
+  pigmentation: '/assets/treatments/pigmentation.webp',
+  'scar-treatment': '/assets/treatments/acne.webp',
+  'hair-transplant': '/assets/gallery/hair-after.webp',
+  'skin-analysis': '/assets/clinic/consultation.webp',
+};
+
+export function imageForService(id: string): string {
+  return SERVICE_IMAGES[id] ?? '/assets/clinic/consultation.webp';
+}
+
 export const CLINIC_STATS = [
   { value: '11', label: 'Treatments on the schedule' },
   { value: 'Free', label: 'First skin analysis' },

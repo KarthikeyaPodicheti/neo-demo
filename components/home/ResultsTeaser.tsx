@@ -50,6 +50,8 @@ export default function ResultsTeaser() {
                   src={img.src}
                   alt={`${img.label} — ${img.desc}`}
                   fill
+                  unoptimized
+                  loading="lazy"
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
                 />

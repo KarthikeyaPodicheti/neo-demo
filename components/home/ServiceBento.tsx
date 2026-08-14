@@ -78,7 +78,9 @@ export default function ServiceBento() {
                     src={service.image}
                     alt={`${service.name} at Neo Skin Clinic`}
                     fill
+                    unoptimized
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    loading="lazy"
                     className="object-cover"
                   />
                 </div>

@@ -74,6 +74,8 @@ export default function GalleryPage() {
                         src={img.beforeSrc}
                         alt={`${img.treatment} — before`}
                         fill
+                        unoptimized
+                        loading={i < 2 ? 'eager' : 'lazy'}
                         sizes="(max-width: 768px) 50vw, 25vw"
                         className="object-cover"
                       />
@@ -84,6 +86,8 @@ export default function GalleryPage() {
                         src={img.afterSrc}
                         alt={`${img.treatment} — after`}
                         fill
+                        unoptimized
+                        loading={i < 2 ? 'eager' : 'lazy'}
                         sizes="(max-width: 768px) 50vw, 25vw"
                         className="object-cover"
                       />

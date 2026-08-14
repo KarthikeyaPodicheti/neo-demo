@@ -31,7 +31,7 @@ export default function WhyNeoSkin() {
           <div className="about-collage">
             {COLLAGE.map((shot) => (
               <figure key={shot.src} className={shot.className}>
-                <Image src={shot.src} alt={shot.alt} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+                <Image src={shot.src} alt={shot.alt} fill unoptimized sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
               </figure>
             ))}
           </div>

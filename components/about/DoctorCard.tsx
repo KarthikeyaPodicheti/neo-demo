@@ -31,6 +31,7 @@ export default function DoctorCard({ doctor, index }: { doctor: Doctor; index: n
             src={doctor.photoUrl}
             alt={`${doctor.name}, ${doctor.specialization}`}
             fill
+            unoptimized
             sizes="80px"
             className="object-cover"
           />

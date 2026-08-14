@@ -45,6 +45,7 @@ export default function AboutPage() {
                 src="/assets/clinic/clinic-room.webp"
                 alt="The Neo Skin Clinic treatment room in Vanasthalipuram"
                 fill
+                unoptimized
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
                 style={{ filter: 'saturate(0.9) brightness(0.92)' }}

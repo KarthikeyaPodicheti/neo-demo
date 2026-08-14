@@ -81,6 +81,7 @@ export default function Hero() {
         alt=""
         fill
         priority
+        unoptimized
         sizes="100vw"
         className="hall__photo"
       />
