@@ -282,13 +282,8 @@ p { text-wrap: pretty; }
 
 /* ---------- Services dossier ---------- */
 .dossier__tabs {
-  position: sticky;
-  top: var(--nav-offset);
-  z-index: 4;
-  background: color-mix(in oklch, var(--color-paper) 92%, transparent);
-  -webkit-backdrop-filter: saturate(140%) blur(10px);
-  backdrop-filter: saturate(140%) blur(10px);
   border-block: var(--rule-hair-solid);
+  background: var(--color-paper);
 }
 .dossier__tabs-inner {
   display: flex;
