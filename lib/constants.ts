@@ -215,6 +215,7 @@ export const DOCTORS: Doctor[] = [
     name: 'Dr. [Name]',
     specialization: 'Cosmetologist',
     experience: '5+ years',
+    qualification: 'DDVL, Fellowship in Aesthetic Medicine',
     photoUrl: '/assets/clinic/cosmetologist.webp',
   },
 ];
